@@ -1,0 +1,102 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.m8test.dokka",
+    "module": "annotation",
+    "version": "0.1.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotation-0.1.20.jar",
+          "url": "annotation-0.1.20.jar",
+          "size": 2844,
+          "sha512": "256d99b88eaf061a4de347ebe47db57aa3a79be85f2cc01246abbc7a0c66fbbd85bd8f69fec0e34fafdae17369cfcfa68a3acc67e3b57cdb73e51c7494390819",
+          "sha256": "907bc3b91b0e81c5466eae269822e5fde687170743514a62801969b85d4f015b",
+          "sha1": "91fc16cc5ad9497bae8d6e4ef54b28176161f117",
+          "md5": "ca80564616ee673b269d3659b2a04967"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "annotation-0.1.20.jar",
+          "url": "annotation-0.1.20.jar",
+          "size": 2844,
+          "sha512": "256d99b88eaf061a4de347ebe47db57aa3a79be85f2cc01246abbc7a0c66fbbd85bd8f69fec0e34fafdae17369cfcfa68a3acc67e3b57cdb73e51c7494390819",
+          "sha256": "907bc3b91b0e81c5466eae269822e5fde687170743514a62801969b85d4f015b",
+          "sha1": "91fc16cc5ad9497bae8d6e4ef54b28176161f117",
+          "md5": "ca80564616ee673b269d3659b2a04967"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "annotation-0.1.20-sources.jar",
+          "url": "annotation-0.1.20-sources.jar",
+          "size": 3635,
+          "sha512": "3bcd41f59fb74052485fd4b445619b44fd5f1f5339deb4984b977b0a1d412cbfb0b79684f566f09cde148aa095b8675df34fed9b8bf1269f6037bf3e648b6632",
+          "sha256": "f21b910b71328e32dbcbfe74a49a84efdf3dc777823726f328b0b349835ab15d",
+          "sha1": "542611a028e1b218a3eda99bac852508e8c12dbb",
+          "md5": "c94861f3ba002a0ac05c8527f970cde8"
+        }
+      ]
+    }
+  ]
+}

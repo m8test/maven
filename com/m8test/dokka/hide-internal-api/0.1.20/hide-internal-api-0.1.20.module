@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.m8test.dokka",
+    "module": "hide-internal-api",
+    "version": "0.1.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hide-internal-api-0.1.20.jar",
+          "url": "hide-internal-api-0.1.20.jar",
+          "size": 7205,
+          "sha512": "396c73254d3ec4c33120e3ea720da62b73921eae3aeec692ad6d87dda852ca1e60cec0dc12dec7cc0eabbcec38b0ee7e7118b6b6ac8fdbf460a3e4e6f6a26f93",
+          "sha256": "53155a3530dc47cabb19325ae7ed92c9ffe8f0f6bf2d0ca9632ba51e2ff26ba7",
+          "sha1": "cd5ae8f55e43d70f8597b89e22f02df09ff8abf1",
+          "md5": "8309969d335938babf60e11ec1578c99"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-core",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-base",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hide-internal-api-0.1.20.jar",
+          "url": "hide-internal-api-0.1.20.jar",
+          "size": 7205,
+          "sha512": "396c73254d3ec4c33120e3ea720da62b73921eae3aeec692ad6d87dda852ca1e60cec0dc12dec7cc0eabbcec38b0ee7e7118b6b6ac8fdbf460a3e4e6f6a26f93",
+          "sha256": "53155a3530dc47cabb19325ae7ed92c9ffe8f0f6bf2d0ca9632ba51e2ff26ba7",
+          "sha1": "cd5ae8f55e43d70f8597b89e22f02df09ff8abf1",
+          "md5": "8309969d335938babf60e11ec1578c99"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "hide-internal-api-0.1.20-sources.jar",
+          "url": "hide-internal-api-0.1.20-sources.jar",
+          "size": 1882,
+          "sha512": "83eb123fe6cbd9948ec431f08a3a7eddee7dc096384a46253f8d52e43e15b942b5b94fa2c2753cc7781f5e2d77b05a67beed51fc9fa5737e2125ea5bc27163e4",
+          "sha256": "99afa8c725ef2662499dba51ce99397a828e5bbd2df11c43db8de4b09e425ddd",
+          "sha1": "485bfcf8867fd3a70b6656dff6c7e19f17380c7f",
+          "md5": "a750b8e6bee4094c7fe5fc27105d5cce"
+        }
+      ]
+    }
+  ]
+}
