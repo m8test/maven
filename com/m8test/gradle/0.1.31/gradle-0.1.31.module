@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.m8test",
+    "module": "gradle",
+    "version": "0.1.31",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.0.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "gradle-0.1.31.jar",
+          "url": "gradle-0.1.31.jar",
+          "size": 223890,
+          "sha512": "fc89185f048a93ec2e9faa3e648ffdd534d4a657e4a6a2ace9e21d1b7cfac5864f76d697dce4411c06b8a02ea5bad600a713c62d3d42771faa97fab96e040dd7",
+          "sha256": "7da10e8fe66ff66be7c44670372e6ac1094b3f0bf7e83646e65787ba31c94979",
+          "sha1": "36dcfbfb78917488dc6cb898094832006292c02c",
+          "md5": "b6ef79d71cfaeee819285e58d337d3d5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.tools.build",
+          "module": "gradle",
+          "version": {
+            "requires": "8.13.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "com.google.devtools.ksp",
+          "module": "com.google.devtools.ksp.gradle.plugin",
+          "version": {
+            "requires": "2.1.21-2.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-gradle-plugin",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin.plugin.serialization",
+          "module": "org.jetbrains.kotlin.plugin.serialization.gradle.plugin",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.13.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20250107"
+          }
+        },
+        {
+          "group": "de.femtopedia.dex2jar",
+          "module": "dex2jar",
+          "version": {
+            "requires": "2.4.28"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gradle-0.1.31.jar",
+          "url": "gradle-0.1.31.jar",
+          "size": 223890,
+          "sha512": "fc89185f048a93ec2e9faa3e648ffdd534d4a657e4a6a2ace9e21d1b7cfac5864f76d697dce4411c06b8a02ea5bad600a713c62d3d42771faa97fab96e040dd7",
+          "sha256": "7da10e8fe66ff66be7c44670372e6ac1094b3f0bf7e83646e65787ba31c94979",
+          "sha1": "36dcfbfb78917488dc6cb898094832006292c02c",
+          "md5": "b6ef79d71cfaeee819285e58d337d3d5"
+        }
+      ]
+    }
+  ]
+}
