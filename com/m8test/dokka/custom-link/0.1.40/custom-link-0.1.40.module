@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.m8test.dokka",
+    "module": "custom-link",
+    "version": "0.1.40",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "custom-link-0.1.40.jar",
+          "url": "custom-link-0.1.40.jar",
+          "size": 5954,
+          "sha512": "736d87990db37d9adeba505fe84344118d683428cfe442d3c104a95c57371fe420036515eabe8ad6bd0562f7addf06fd841d7dac5ca536d6c415bd179fd98fc6",
+          "sha256": "3b15bb7be04ac239f3acfc5449c9c2c8f09e5b91532beb749ae7f674cbd04d58",
+          "sha1": "06fed5760c3a2f68b3dae32f46870f6e079e1740",
+          "md5": "c7df09ac352ef831f27d7bf7e127ef53"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-base",
+          "version": {
+            "requires": "2.2.0-Beta"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-core",
+          "version": {
+            "requires": "2.2.0-Beta"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "custom-link-0.1.40.jar",
+          "url": "custom-link-0.1.40.jar",
+          "size": 5954,
+          "sha512": "736d87990db37d9adeba505fe84344118d683428cfe442d3c104a95c57371fe420036515eabe8ad6bd0562f7addf06fd841d7dac5ca536d6c415bd179fd98fc6",
+          "sha256": "3b15bb7be04ac239f3acfc5449c9c2c8f09e5b91532beb749ae7f674cbd04d58",
+          "sha1": "06fed5760c3a2f68b3dae32f46870f6e079e1740",
+          "md5": "c7df09ac352ef831f27d7bf7e127ef53"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "custom-link-0.1.40-sources.jar",
+          "url": "custom-link-0.1.40-sources.jar",
+          "size": 1767,
+          "sha512": "4a66d33a2adabb725cdc14f8e7ca466f96201d962d30347dda4089dbd3bbe581e13794643054389762aa513965164947e122faeb321daa5d7d06d148406865a3",
+          "sha256": "3354d05b8dd1a8ad13e8774c05ddb98d28049fdc6fcab3631b667fb13591821d",
+          "sha1": "f47ca66b881c1cc88211265079ad773bef23d92f",
+          "md5": "6ef13ac39adf177f8c50077fc8913c3c"
+        }
+      ]
+    }
+  ]
+}
