@@ -1,0 +1,36 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.m8test",
+    "module": "version-catalog",
+    "version": "0.1.43",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "versionCatalogElements",
+      "attributes": {
+        "org.gradle.category": "platform",
+        "org.gradle.usage": "version-catalog"
+      },
+      "files": [
+        {
+          "name": "version-catalog-0.1.43.toml",
+          "url": "version-catalog-0.1.43.toml",
+          "size": 20612,
+          "sha512": "431564cc87121e804e846c5c9fdb7966d0d300186769a3b05045221c07489c319365eb2ccaf089ec9a2e3bd10216d12aea78ea3679290bcc3b406745e663b3c7",
+          "sha256": "99b1d50993b26eef47717ab0dbba2c36352e876ffae1c0042ab0225a2f44b6ba",
+          "sha1": "0d1d81229a124c3e72e00c4813a81f029c756de2",
+          "md5": "21ee8c90ffd854d2e38be903f33be222"
+        }
+      ]
+    }
+  ]
+}
