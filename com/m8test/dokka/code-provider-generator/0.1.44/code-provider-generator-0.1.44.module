@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.m8test.dokka",
+    "module": "code-provider-generator",
+    "version": "0.1.44",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "code-provider-generator-0.1.44.jar",
+          "url": "code-provider-generator-0.1.44.jar",
+          "size": 100930,
+          "sha512": "f7aaee4e092e0f5b1200d140f21fc0ce3740144a2f529fba830826e742428d9dcd53b340c518a544889b46b0fa11a8cca75155ccd74ad3ab57763758836e0d4d",
+          "sha256": "a7b1248890e550b33fee871a50fd0ca72809afeab576fd8146ea066d29c178bf",
+          "sha1": "b50330c158014934f18f4ac0eb33780f94b4b077",
+          "md5": "7404cc917b43bb698ad7da9da18703c4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-base",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-core",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.14.0"
+          }
+        },
+        {
+          "group": "org.redundent",
+          "module": "kotlin-xml-builder",
+          "version": {
+            "requires": "1.9.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "code-provider-generator-0.1.44.jar",
+          "url": "code-provider-generator-0.1.44.jar",
+          "size": 100930,
+          "sha512": "f7aaee4e092e0f5b1200d140f21fc0ce3740144a2f529fba830826e742428d9dcd53b340c518a544889b46b0fa11a8cca75155ccd74ad3ab57763758836e0d4d",
+          "sha256": "a7b1248890e550b33fee871a50fd0ca72809afeab576fd8146ea066d29c178bf",
+          "sha1": "b50330c158014934f18f4ac0eb33780f94b4b077",
+          "md5": "7404cc917b43bb698ad7da9da18703c4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.m8test.dokka",
+    "module": "hide-internal-api",
+    "version": "0.1.44",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hide-internal-api-0.1.44.jar",
+          "url": "hide-internal-api-0.1.44.jar",
+          "size": 7211,
+          "sha512": "8e05bec781d14c2aacfbb364f34b9583a4123b015fe5b89645a588f0ca6d3c29abc8402c3839283a88daa7d2b7983ca6458c5cc5d127df33b0e7cd8bc6d238dd",
+          "sha256": "3aab1c79cc1b6e8349c48106926477bee0fa497df43eaf3ce73714619e2b4959",
+          "sha1": "63c8bba8cbef1db6d2d802c1811ea0c177ffdfd3",
+          "md5": "e0cf7344bedec372533d1fc9634dada8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-base",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-core",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hide-internal-api-0.1.44.jar",
+          "url": "hide-internal-api-0.1.44.jar",
+          "size": 7211,
+          "sha512": "8e05bec781d14c2aacfbb364f34b9583a4123b015fe5b89645a588f0ca6d3c29abc8402c3839283a88daa7d2b7983ca6458c5cc5d127df33b0e7cd8bc6d238dd",
+          "sha256": "3aab1c79cc1b6e8349c48106926477bee0fa497df43eaf3ce73714619e2b4959",
+          "sha1": "63c8bba8cbef1db6d2d802c1811ea0c177ffdfd3",
+          "md5": "e0cf7344bedec372533d1fc9634dada8"
+        }
+      ]
+    }
+  ]
+}
