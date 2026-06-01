@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.m8test.dokka",
+    "module": "custom-link",
+    "version": "0.1.45",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "custom-link-0.1.45.jar",
+          "url": "custom-link-0.1.45.jar",
+          "size": 5920,
+          "sha512": "c71363dd1e46aef94f6bdfe5b702a456efa0385ce0c8335b6fd51c1f72df84ddb8f93fa3dbb26d4e0a8c56955c46bba06450802c4772544ac0cea5310f91968f",
+          "sha256": "0475238d3e88d16b38e57b9b8f44b0cac745cd4382d745bf78c12b49f49b3d67",
+          "sha1": "fca0523f016f8b8a082a84fda73ef16a295285f7",
+          "md5": "e66776e8bb1d70cde4db28f164aab345"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-base",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.dokka",
+          "module": "dokka-core",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "custom-link-0.1.45.jar",
+          "url": "custom-link-0.1.45.jar",
+          "size": 5920,
+          "sha512": "c71363dd1e46aef94f6bdfe5b702a456efa0385ce0c8335b6fd51c1f72df84ddb8f93fa3dbb26d4e0a8c56955c46bba06450802c4772544ac0cea5310f91968f",
+          "sha256": "0475238d3e88d16b38e57b9b8f44b0cac745cd4382d745bf78c12b49f49b3d67",
+          "sha1": "fca0523f016f8b8a082a84fda73ef16a295285f7",
+          "md5": "e66776e8bb1d70cde4db28f164aab345"
+        }
+      ]
+    }
+  ]
+}
